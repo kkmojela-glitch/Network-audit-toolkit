@@ -1,0 +1,6 @@
+Device Type,Brand,Model,Serial Number,IP Address,Location,Status
+Switch,Cisco,Catalyst 2960,SW123456,192.168.1.2,Rack 1,Active
+Router,MikroTik,CCR1009,RTR987654,192.168.1.1,Server Room,Active
+Firewall,FortiGate,60F,FGT654321,192.168.1.254,Server Room,Active
+Access Point,Ubiquiti,UniFi AP-AC,AP112233,192.168.1.10,Office Area,Active
+Server,Dell,PowerEdge R740,SER778899,192.168.1.20,Data Room,Active
