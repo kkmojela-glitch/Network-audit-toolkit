@@ -1,15 +1,55 @@
-This file is intended for a network topology diagram.
-
-Recommended structure to draw in diagrams.net (draw.io):
-
-- Internet Cloud
-   ↓
-- Router (MikroTik / ISP Router)
-   ↓
-- Firewall (optional layer)
-   ↓
-- Core Switch (Cisco)
-   ↓
------------------------------
-|            |             |
-PCs       Server       Access Points
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ON32T0afB-PcZJrOB1tS">
+    <mxGraphModel dx="794" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IEW50FLG386O1wsReEYd-1" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" value="&lt;b&gt;Internet&lt;/b&gt;&lt;br&gt;WAN Cloud" vertex="1">
+          <mxGeometry height="80" width="140" x="380" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" value="&lt;b&gt;Router&lt;/b&gt;&lt;br&gt;Gateway" vertex="1">
+          <mxGeometry height="60" width="140" x="380" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" value="&lt;b&gt;Switch&lt;/b&gt;&lt;br&gt;Core Switch" vertex="1">
+          <mxGeometry height="60" width="140" x="380" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" value="&lt;b&gt;Server&lt;/b&gt;&lt;br&gt;Local Database" vertex="1">
+          <mxGeometry height="70" width="100" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" value="&lt;b&gt;PC 1&lt;/b&gt;&lt;br&gt;Workstation" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" value="&lt;b&gt;PC 2&lt;/b&gt;&lt;br&gt;Workstation" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" value="&lt;b&gt;Access Point&lt;/b&gt;&lt;br&gt;Wi-Fi AP" vertex="1">
+          <mxGeometry height="60" width="100" x="560" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" value="&lt;b&gt;PC 3&lt;/b&gt;&lt;br&gt;Wireless Laptop" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-9" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-10" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-11" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-12" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-13" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-14" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEW50FLG386O1wsReEYd-15" edge="1" parent="1" source="IEW50FLG386O1wsReEYd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeWidth=2;" target="IEW50FLG386O1wsReEYd-8" value="Wi-Fi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
