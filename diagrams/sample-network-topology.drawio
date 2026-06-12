@@ -1,0 +1,15 @@
+This file is intended for a network topology diagram.
+
+Recommended structure to draw in diagrams.net (draw.io):
+
+- Internet Cloud
+   ↓
+- Router (MikroTik / ISP Router)
+   ↓
+- Firewall (optional layer)
+   ↓
+- Core Switch (Cisco)
+   ↓
+-----------------------------
+|            |             |
+PCs       Server       Access Points
